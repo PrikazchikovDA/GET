@@ -3,7 +3,7 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Инициализируем всё, что нужно
+# Инициализируем всё, что нужн
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
@@ -22,6 +22,8 @@ GPIO.setup(11, GPIO.OUT)
 GPIO.setup(9, GPIO.OUT)
 GPIO.setup(10, GPIO.OUT)
 D = [26, 19, 13, 6, 5, 11, 9, 10]
+
+# Решил внести небольшие изменения в виде строки
 
 GPIO.setup(21, GPIO.OUT)
 GPIO.setup(29, GPIO.OUT)
