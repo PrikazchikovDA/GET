@@ -10,8 +10,10 @@ class _GPIO:
         if 0 > level < 1:
             print("Недопустимый уровень светодиода:", level)
             return
+        # Что-то не работают изменения
 
         self.pins[pinId] = level
         print(self.pins)
 
 GPIO = _GPIO()
+
